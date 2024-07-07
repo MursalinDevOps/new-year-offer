@@ -259,6 +259,8 @@ body {
     align-items: center;
 }
 
+.circle-image-outline img {}
+
 .right-side-content {
     width: 33.33%;
     display: flex;
@@ -470,4 +472,76 @@ background-repeat: no-repeat; */
 #mail-image {
     width: 131.25px;
     height: 87.78px;
+}
+
+/* Footer Section Style */
+
+.footer-container {
+    color: #ffffff;
+    width: 1600px;
+    height: 609px;
+    background: rgb(7, 2, 17);
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.top-left p {
+    width: 375px;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.top-section {
+    display: flex;
+    justify-content: space-between;
+    height: 203px;
+}
+
+.top-right-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-right-two a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.top-right img {
+    width: 26px;
+    height: 26px;
+}
+
+.top-right span {
+    display: block;
+}
+
+.center-section {
+    height: 203px;
+}
+
+.social-icons {
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons a {
+    text-decoration: none;
+}
+
+.bottom-section {
+    display: flex;
+    justify-content: space-between;
 }
