@@ -358,23 +358,47 @@ background-repeat: no-repeat; */
 }
 
 /* Portfolio Section Style */
-.portfolio-section-container{
+.portfolio-section-container {
     width: 1320px;
     height: 1163px;
     margin: 0 auto;
     margin-top: 100px;
     margin-bottom: 100px;
-    /* border: 2px solid burlywood; */
 }
-.portfolio-text-container{
 
+.portfolio-text-container h5 {
+    width: 192px;
+    height: 29px;
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
 }
-.portfolio-text-container h5{
 
-} 
-.portfolio-text-container h1{
+.portfolio-text-container h1 {
+    width: 566px;
+    height: 60px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
 
-} 
-.portfolio-text-container p{
+.portfolio-text-container p {
+    width: 896px;
+    height: 64px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
 
-} 
+.portfolio-grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    border-radius: 16px;
+    width: 380px;
+    height: 400px;
+}
+
