@@ -85,23 +85,124 @@ body {
     font-weight: 700;
     padding-bottom: 48px;
 }
-.off-img-container{
+
+.off-img-container {
     width: 802.9px;
     height: 500px;
+    margin-bottom: 90px;
 }
 
-.off-img-container img{
+.off-img-container img {
     width: 802.9px;
     height: 100%;
 }
 
+/* Midnight party section */
+.midnight-party-container {
+    width: 1320px;
+    height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+}
 
+.leftside-content {
+    width: 50%;
+    padding-left: 100px;
+    color: #ffffff;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
 
+.leftside-content h1 {
+    color: rgb(255, 255, 255);
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+}
 
+.leftside-content p {
+    color: rgba(255, 255, 255, 0.8);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
 
+.leftside-content span {
+    width: 103px;
+    height: 24px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+}
 
+.rightside-content {
+    width: 50%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* Event Details Section */
 
+.event-details-container {
+    width: 1320px;
+    height: 482px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border: 2px solid red;
+}
+
+.event-content {
+    width: 1320px;
+    height: 482px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.event-details-container span {
+    color: #ff0000;
+
+}
+
+.event-details-container h1 {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.join-btn {
+    position: relative;
+    width: 147px;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px 16px 32px;
+margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #ff0000;
+    border: none;
+    
+}
 
 
 
