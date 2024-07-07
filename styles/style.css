@@ -10,7 +10,6 @@ body {
     font-family: "Merriweather", serif;
 }
 
-
 .banner-container {
     max-width: 1320px;
     margin: 0 auto;
@@ -398,7 +397,6 @@ background-repeat: no-repeat; */
     grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     border-radius: 16px;
-    width: 380px;
-    height: 400px;
+    width: 424px;
+    height: 450px;
 }
-
