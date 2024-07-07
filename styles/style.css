@@ -400,3 +400,74 @@ background-repeat: no-repeat; */
     width: 424px;
     height: 450px;
 }
+
+/* Newsletter section style */
+
+.newsletter-container {
+    width: 1320px;
+    height: 616px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.newsletter-container h1 {
+    width: 512px;
+    height: 60px;
+    margin-top: 30px;
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.newsletter-container p {
+    width: 896px;
+    height: 64px;
+    margin-top: 30px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.input-container {
+    margin: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-container input {
+    width: 648px;
+    height: 72px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 50px 0px 0px 50px;
+
+    background: rgb(255, 255, 255);
+}
+
+.input-container button {
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+
+    background: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+#mail-image {
+    width: 131.25px;
+    height: 87.78px;
+}
